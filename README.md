@@ -2,8 +2,7 @@
 - Snippets de desenvolvimento para facilitar a produtividade 
 
 ## Stacks 
-- [React Native]() 
-- [React]()
-- [HTML]()
-- [Node](https://github.com/gustavogss/snippets-types/blob/main/back/node.json)
-- [React CI/CD]()
+- [Frontend](https://github.com/gustavogss/snippets-types/blob/main/front)
+- [Banckend](https://github.com/gustavogss/snippets-types/blob/main/back)
+- [Mobile](https://github.com/gustavogss/snippets-types/blob/main/mobile)
+- [Devops](https://github.com/gustavogss/snippets-types/blob/main/devops)
