@@ -1,0 +1,41 @@
+{
+  "CICD React": {
+  "prefix": "rci",
+  "body": [
+    "stages:",
+    "  - install",
+    "  - build",
+    "  - deploy",
+    "",
+    "variables:",
+    "  NODE_ENV: production",
+    "",
+    "cache:",
+    "  paths:",
+    "    - node_modules/",
+    "",
+    "install_dependencies:",
+    "  stage: install",
+    "  script:",
+    "    - npm install",
+    "",
+    "build_app:",
+    "  stage: build",
+    "  script:",
+    "    - npm run build",
+    "  artifacts:",
+    "    paths:",
+    "      - build/",
+    "",
+    "deploy:",
+    "  stage: deploy",
+    "  script:",
+    "    - echo \"Deploying to server...\"",
+    "    - rsync -avz ./build/ user@server:/path/to/deploy/",
+    "  only:",
+    "    - main",
+    ""
+  ],
+  "description": "CICD React"
+}
+}

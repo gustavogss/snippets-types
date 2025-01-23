@@ -1,0 +1,23 @@
+{
+  "Node com Express": {
+  "prefix": "noe",
+  "body": [
+    "const express = require('express');",
+    "",
+    "const app = express();",
+    "app.use(express.json());",
+    "",
+    "const PORT = process.env.PORT || 3333;",
+    "",
+    "app.get('/', (req, res) => {",
+    "  res.send(`Servidor rodando na porta ${PORT}`');",
+    "});",
+    "",
+    "app.listen(PORT, () => {",
+    "  console.log(`Servidor iniciado na porta ${PORT}`);",
+    "});",
+    ""
+  ],
+  "description": "Node com Express"
+}
+}

@@ -1,0 +1,35 @@
+{
+  "Html Semântico": {
+  "prefix": "!.",
+  "body": [
+    "<!DOCTYPE html>",
+    "<html lang=\"pt-br\">",
+    "<head>",
+    "  <meta charset=\"UTF-8\">",
+    "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+    "  <link rel=\"stylesheet\" href=\"./css/style.css\">",
+    "  <script defer src=\"./js/script.js\" ></script>",
+    "  <title>Page title</title>",
+    "</head>",
+    "<body>",
+    "  <header>",
+    "    <nav>",
+    "      <ul>",
+    "        <li id=\"#\">#</li>",
+    "        <li id=\"#\">#</li>",
+    "        <li id=\"#\">#</li>",
+    "        <li id=\"#\">#</li>",
+    "      </ul>",
+    "    </nav>",
+    "  </header>",
+    "  <main>",
+    "    <section class=\".\"></section>",
+    "    <section class=\".\"></section>",
+    "  </main>",
+    "  <footer></footer>  ",
+    "</body>",
+    "</html>"
+  ],
+  "description": "Html Semântico"
+}
+}
